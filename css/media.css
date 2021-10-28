@@ -1,0 +1,45 @@
+@media(max-width: 860px){
+    .menu__list{
+        display: block;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        background-color: #332208;
+        text-align: center;
+        padding: 20px 0;
+        transform: translateY(-500px);
+    }
+    .menu__list.menu__list--active{
+        transform: translateY(0);
+
+    }
+    .menu__list-link{
+        padding: 20px 0;
+        display: block;
+    }
+    .menu__btn{
+        display: block;
+        cursor: pointer;
+        width: 35px;
+        height: 24px;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        border-top: 2px solid #fefefe;
+        border-bottom: 2px solid #fefefe;
+        position: relative;
+    }
+    .menu__btn::before{
+        content:'';
+        position: absolute;
+        width: 35px;
+        height: 2px;
+        background-color: #fefefe;
+        left: 0;
+        top: 9px;
+    }
+    .menu{
+        order: 1;
+    }
+}
