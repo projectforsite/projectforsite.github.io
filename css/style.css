@@ -361,3 +361,6 @@ body{
 .footer__social-link {
     margin: 0 15px 0 15px;
 }
+.menu__btn{
+    display: none;
+}
