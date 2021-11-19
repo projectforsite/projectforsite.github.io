@@ -64,7 +64,7 @@
         text-align: center;
         padding: 20px 0;
         /* забрати меню для сторінки для дж с */
-        transform: translateY(-500);
+        transform: translateY(-500px);
         transition: all .5s;
     }
     .menu__list.menu__list--active{
@@ -89,7 +89,7 @@
         position: relative;
     }
     .menu__btn::before{
-        content: "";
+        content: '';
         position: absolute;
         width: 35px;
         height: 2px;
@@ -130,8 +130,8 @@
     .top__items{
         margin: 20px;
         }
-        .top__slider-text{
-            padding-top: 0;
+    .top__slider-text{
+        padding-top: 0;
     }
     .benefits__images{
         width: 70%;
@@ -143,7 +143,8 @@
         padding-left: 26px;
     }
     .benefits__list-item::after{
-        right: auto;left: 0;
+        right: auto;
+        left: 0;
     }
 }
 @media(max-width: 450px){

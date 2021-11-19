@@ -360,8 +360,6 @@ body{
     align-items: center;
 }
 .footer__social-link {
-    margin: 0 15px 0 15px;
+    margin: 0 15px;
 }
-.menu__btn{
-    display: none;
-}
+
