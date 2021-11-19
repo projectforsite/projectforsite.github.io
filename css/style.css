@@ -259,6 +259,7 @@ body{
     .benefits__content {
         width: 300px;
         text-align: right;
+        padding-bottom: 60px;
     }
     .benefits__text {
         margin-bottom: 30px;
