@@ -158,6 +158,12 @@
     }
 }
 @media(max-width: 410px){
+    .top__title{
+        min-width: 360px;
+    }
+    .top__text{
+        min-width: 340px;
+    }
     .top__item{
         width: 100%;
     }
