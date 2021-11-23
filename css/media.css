@@ -123,6 +123,15 @@
         text-align: center;
     }
 }
+@media(max-width: 620px){
+    .top__title{
+        min-width: 360px;
+    }
+    .top__text{
+        min-width: 340px;
+    }
+
+}
 @media(max-width: 525px){
     .top__items{
         flex-wrap: wrap;
@@ -164,8 +173,15 @@
     .top__text{
         min-width: 340px;
     }
+    .top__slider{
+        width: 102%;
+    }
+    .top__bottom{
+        width: 90%;
+        }
     .top__item{
         width: 100%;
+        margin: 15px;
     }
     .top__links{
         text-align: center;
