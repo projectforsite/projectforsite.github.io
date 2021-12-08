@@ -47,6 +47,13 @@ body{
         display: flex;
         padding-bottom: 30px;
 }
+    h2{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;  
+    line-height: 29px;
+    margin-bottom: 50px;  
+}
     .top__content {
         text-align: center;
         padding-top: 90px;
