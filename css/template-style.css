@@ -75,6 +75,39 @@ nav ul li ul li {
 #fourth-block {
 	background: rgb(0, 30, 34);
 }
+/* --------- */
+.colums{
+    background-color: black;
+    border-bottom: 1px solid #808080;
+    padding-top: 30px;
+	padding-bottom: 30px;
+}
+.colums__inner{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.colums__first{
+    max-width: 500px;
+}
+.colums__second{
+    max-width: 300px;
+}
+.colums__first h3{
+    color: #808080;
+    font-size: 15px;
+}
+.colums__second h3{
+    color: #808080;
+    font-size: 15px;
+}
+.colums__first p{
+    text-transform: none;
+    font-size: 14px;
+    color: #fff;
+    text-align: inherit;
+}
+/* ---------- */
 footer {
 	background: none repeat scroll 0 0 #2fcbe0;
 	padding: 1.5em 0;
@@ -251,4 +284,9 @@ form.customform input, form.customform select, form.customform textarea {
   footer .right {
   float: none;
   }
+  .colums__inner{
+    display: inherit;
+    justify-content: space-around;
+    /* align-items: center; */
+}
 }
